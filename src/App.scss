@@ -1,0 +1,84 @@
+.App {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8388a4;
+    &_sub {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    padding: 0.3vw 0.6vw;
+    font-size: 0.8vw;
+    letter-spacing: 1px;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    color: #363b59;
+    transition: 0.4s;
+    // .btn_add
+    &_add {
+        color: #4f8317;
+        background-color: #a7fe4f;
+        padding: 0.5vw 0.6vw;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #ccff98;
+        }
+    }
+    // .btn_save
+    &_save {
+        color: #363b59;
+        background-color: #ffc926;
+        margin-right: 10px;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #fbde86;
+        }
+    }
+    // .btn_cancel
+    &_cancel {
+        color: #fff9f1;
+        background-color: #fd6361;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #f99c9a;
+        }
+    }
+    // .btn_edit
+    &_edit {
+        color: #363b59;
+        margin-right: 10px;
+        background-color: #8388a4;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #c8cdeb;
+        }
+    }
+    // .btn_delete
+    &_delete {
+        color: #fff9f1;
+        background-color: #fd6361;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #f99c9a;
+        }
+    }
+    &_clean {
+        color: #fff;
+        background-color: #940404;
+        &:hover {
+            box-shadow: 0 0 0 0.15vw #a12f2f;
+        }
+    }
+}
