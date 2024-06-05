@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.cefe3552.css",
+    "main.js": "/todo-list/static/js/main.dae21817.js",
+    "index.html": "/todo-list/index.html",
+    "main.cefe3552.css.map": "/todo-list/static/css/main.cefe3552.css.map",
+    "main.dae21817.js.map": "/todo-list/static/js/main.dae21817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefe3552.css",
+    "static/js/main.dae21817.js"
+  ]
+}
